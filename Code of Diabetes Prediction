@@ -1,4 +1,7 @@
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # I uploaded dataset in my github page.So I Load dataset from my GitHub url.
 url = "https://raw.githubusercontent.com/Lokeshkonga3/analyzing-pima-indian-diabetes-dataset-/main/diabetes.csv" 
@@ -35,6 +38,9 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 # Decision Tree Model
 dt_model = DecisionTreeClassifier(random_state=42)
 dt_model.fit(X_train, y_train)
