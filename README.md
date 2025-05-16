@@ -1,0 +1,1 @@
+# Prediction-of-pima-indian-diabetes-dataset
