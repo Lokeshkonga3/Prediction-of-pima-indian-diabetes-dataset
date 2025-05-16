@@ -1,0 +1,8 @@
+# Diabetes Prediction Model 🏥🔬
+
+## Objective 🎯
+The primary goal of this project is to **build a machine learning model** that predicts diabetes based on patient health indicators. It utilizes **Logistic Regression, Decision Trees, and Random Forest** to classify whether an individual is likely to have diabetes. This project aims to:
+- **Provide insights** into key health factors related to diabetes.
+- **Develop an accurate classification model** using supervised learning.
+- **Apply data preprocessing techniques** for model optimization.
+- **Evaluate multiple ML algorithms** to compare performance.
