@@ -13,9 +13,38 @@ The goal is to analyze and compare the performance of different models while opt
 - **Source:** [Dataset Link](https://github.com/Lokeshkonga3/analyzing-pima-indian-diabetes-dataset-/blob/main/diabetes.csv)
 - **Features:** Includes medical attributes like glucose level, BMI, age, insulin levels, etc.
 
+### **Programming Language**
+- **Python** 
+
+### **Data Handling & Processing**
+- `pandas` - Data manipulation and preprocessing
+- `numpy` - Numerical computations
+
+### **Machine Learning**
+- `scikit-learn` - Training models, feature scaling, evaluation metrics
+  - `LogisticRegression` - Logistic regression classifier
+  - `DecisionTreeClassifier` - Decision tree classifier
+  - `RandomForestClassifier` - Random forest classifier
+  - `train_test_split` - Splitting dataset into training & testing sets
+  - `StandardScaler` - Feature scaling for better model performance
+  - `accuracy_score`, `confusion_matrix`, `classification_report` - Model evaluation tools
+
+### **Visualization**
+- `matplotlib` - Basic plots and graphs
+- `seaborn` - Advanced data visualization and statistical plots
+
+
+## Installation & Usage 
+Clone the repository and run the script:
+
+```sh
+git clone <your-repo-url>
+cd diabetes-prediction
+python model.py
 ## Installation & Dependencies
 Install the necessary libraries before running the project:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib
+
 
