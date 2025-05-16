@@ -41,10 +41,6 @@ Clone the repository and run the script:
 git clone <your-repo-url>
 cd diabetes-prediction
 python model.py
-## Installation & Dependencies
-Install the necessary libraries before running the project:
-
-```bash
 pip install pandas numpy scikit-learn matplotlib
 
 
